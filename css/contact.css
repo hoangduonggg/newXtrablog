@@ -1,0 +1,94 @@
+.main iframe{
+    width: 100%;
+}
+.main .hrs{
+    border-top: solid 5px #0cc;
+    margin-bottom: 50px;
+}
+.main .tite{
+    color: #099;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.footer{
+   margin-right: -15px;
+   margin-left: -15px;
+   font-size: 10px;
+  }
+  .footer .design .TemplateMo{
+    color: #0cc;
+  }
+  .footer .design .design-a{
+      color: gainsboro;
+  }
+  .footer .info{
+   color: gainsboro;
+  }
+  .main .contact .forms .form-groups{
+      margin-bottom: 18px;
+      display: flex;
+  }
+  .main .contact .forms .form-groups .form-controls{
+   height: 45px;
+   border-radius: 0%;
+   border: 1px solid #0cc;
+  }
+  .main .contact{
+      padding-bottom: 50px;
+  }
+  .main .contact .forms{
+      max-width: 100%;
+  }
+  .main .contact .forms .form-groups .wordss{
+      font-size: 19px;
+      color: #099;
+  }
+  .main .contact .forms .control .submit{
+   padding: 8px 33px;
+   background-color: #0cc;
+  margin-top: 20px;
+  border-radius: 5%;
+  color: white;
+  border: 1px solid #0cc
+  }
+  .main .contact .forms .control{
+  display: flex;
+  flex-direction: row-reverse;
+  }
+  .main .extra{
+      color: gray;
+      line-height: 2!important;
+  }
+  .main .extra .address{
+      padding-bottom: 40px;
+  }
+  .main .extra .sdt{
+      padding-bottom: 40px;
+  }
+  .main .extra .son{
+      padding-bottom: 30px;
+  }
+  .main .extra .social {
+   display: flex;
+   
+ }
+ .main .extra .social .social-list {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   padding-left: 0px;
+ }
+.main .extra .social .social-list .social-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   font-size: 25px;
+   background-color: #0cc;
+   color: white;
+   margin-right: 20px;
+   margin-bottom: 15px;
+}

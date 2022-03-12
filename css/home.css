@@ -1,0 +1,118 @@
+.main{
+    padding: 80px 100px 25px;
+    margin-left: 400px;
+    }
+    .main .search{
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 90px;
+    }
+    .main .search .search-box{
+      border: 1px solid #0CC;
+      width: 500px;
+      padding: 15px 10px;
+      outline: none;
+    }
+    
+    .main .search .search-button{
+      margin-left: 15px;
+      font-size: 22px;
+      width: 60px;
+      height: 60px;
+      color: white;
+      background-color: #0CC;
+      border: none;
+    }
+    
+    
+    .main .blog-list .blog{
+      border-top: 4px solid #0CC;
+      padding: 35px 0px;
+    }
+    
+    .main .blog-list .blog .image{
+      width: 100%;
+      height: 245px;
+    }
+    
+    .main .blog-list .blog .title{
+      font-weight: 450;
+      font-size: 26px;
+      color: #0CC;
+      margin: 30px 0;
+      padding-top: 30px;
+    }
+    
+    .main .blog-list .blog .demo{
+      color: #999;
+      margin-bottom: 55px;
+    padding-top: 30px;
+    }
+    .space-between{
+      display: flex;
+      justify-content: space-between;
+    }
+    .main .blog-list .blog .type-date{
+      color: #0CC;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      padding-bottom: 15px;
+    }
+    
+    .main .blog-list .blog .comment-author{
+      color: #999;
+      padding-top: 15px;
+    }
+    .main .pagination{
+      display: flex;
+      justify-content: space-between;
+      max-width: 980px;
+      margin-top: 100px;
+      margin-bottom: 75px;
+    }
+     .main .pagination .x{
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .main .pagination .x .prev{
+    background-color: #F0F0F0;
+      color: #999;
+      cursor: not-allowed;
+      margin-right: 20px;
+      padding: 12px 43px;
+      border: none;
+      border-radius: 5%;
+      text-decoration: none
+  }
+  .main .pagination .x .next{
+    background-color: #0CC;
+    color: white;
+    margin-right: 20px;
+    padding: 12px 43px;
+    border: none;
+    border-radius: 5%;
+    text-decoration: none;
+  }
+  .main .pagination .x .next:hover{
+    background-color: #099;
+  }
+  .main .pagination .y .page{
+    margin-right: 1rem!important;
+    display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .main .pagination .y .page-item .linkactive{
+    background-color: #0CC;
+      color: white;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      font-size: 1.3rem;
+  }
+  .main .pagination .y .page-item{
+    display: inline-block;
+    margin-right: 10px;
+  }
